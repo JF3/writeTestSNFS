@@ -1,0 +1,1 @@
+A write test for Quantum SNFS inspired by the style with which BoxLib (https://ccse.lbl.gov/BoxLib/) codes write files. Made neccessary by the fact, that this seems to be the only filesystem on which writing is not possible. This test does not reproduce the full error seen with BoxLib, but still shows, that there is a huge issue whith metadat inconsistencies among nodes.
