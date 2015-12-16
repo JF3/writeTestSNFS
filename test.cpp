@@ -72,7 +72,7 @@ int main (int argc, char** argv)
 			filePos = FabFile.tellp();
 
 			//write out some stuff
-			for (int j = 0; j < NFabs; j++)
+			for (int j = 0; j < NFabs + 4*MyProc; j++)
 			{
 				FabFile << "FAB fake ()()()...\n";
 
