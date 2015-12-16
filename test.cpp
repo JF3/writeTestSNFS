@@ -7,7 +7,7 @@
 
 char data (int pos)
 {
-	return 'A';
+	return 'Y';
 }
 
 
