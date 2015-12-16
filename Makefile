@@ -1,5 +1,6 @@
+all: test check 
 
-target: test.cpp
+test: test.cpp
 	mpiicpc test.cpp -o test
 
 check: check.cpp
